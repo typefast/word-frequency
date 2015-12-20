@@ -1,6 +1,3 @@
-def words_from_string(string)
-  string.downcase.scan(/[\w']+/)
-end
 
 def count_frequency(word_list)
   counts = Hash.new(0)
