@@ -1,12 +1,6 @@
+require_relative 'words_from_string.rb'
+require_relative 'count_frequency.rb'
 
-def count_frequency(word_list)
-  counts = Hash.new(0)
-  
-  for word in word_list
-    counts[word] += 1
-  end
-  counts
-end
 
 raw_text = %{The problem breaks down into two parts. First, given some text
 as a string, return a list of words. That sounds like an array. Then, build

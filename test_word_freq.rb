@@ -1,7 +1,7 @@
-require_relative 'word_freq'
+require_relative 'words_from_string'
 require 'test/unit'
 
-class TestWordsFromString
+class TestWordsFromString < Test::Unit::TestCase
 
   def test_empty_string
     assert_equal([], words_from_string(""))
